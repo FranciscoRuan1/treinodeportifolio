@@ -16,7 +16,16 @@ body {
     justify-content: center;
 }
 
-div {
+section {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    justify-content: center;
+}
+
+.div1 {
    display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,19 +33,18 @@ div {
     position: relative;
     background-color: red;
 }
-section {
-    width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+.div2 {
+    background-color: aqua;
+    height: 100vh;
+    width: 100px;
+    align-self: flex-end;
 }
 
 iframe {
     position: absolute;
     height: 80%;
-    width: 90%;
+    width: 18%;
     
 }
 
@@ -44,3 +52,4 @@ iframe {
     min-width: 20vw;
     min-height: 80%;
 }
+
