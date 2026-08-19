@@ -20,8 +20,10 @@ body {
 }
 
 main {
+    display: flex;
     height: 100vh;
     position: relative;
+    flex-direction: row-reverse;
 }
 
 #celular {
@@ -41,4 +43,47 @@ iframe#tela {
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+#apps {
+    min-width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+
+button {
+    border: 2px solid black;
+    margin: 8px 0px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+button:hover {
+    scale: 1.2;
+    border: 2px solid rgb(255, 255, 255);
+    transition: .4s;
+}
+
+#youtube {
+    background-image: url(imagens/logo-youtube.jpg);
+    background-size: cover;
+}
+
+#github {
+    background-image: url(imagens/logo-github.jpg);
+    background-size: cover;
+}
+
+#insta {
+    background-image: url(imagens/logo-instagram.jpg);
+    background-size: cover;
+}
+
+#home {
+    background-image: url(imagens/logo-home.jpg);
+    background-size: cover;
 }
